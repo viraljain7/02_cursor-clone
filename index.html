@@ -18,10 +18,11 @@
   py-3
   flex justify-between items-center
   transition-all duration-300 ease-in-out
+  z-1000
   ">
     <!-- logo in left side -->
     <div class="flex justify-center items-center gap-0">
-      <img src="public/Icon.png" alt="logo" class="" width="30" />
+      <img src="/Icon.png" alt="logo" class="" width="30" />
       <span class="font-bold uppercase ">
 
         Cursor
@@ -162,15 +163,15 @@
 
     </div>
 
-      <!-- 2 items -->
+    <!-- 2 items -->
     <div class="items-1 grid grid-cols-12 items-center justify-center bg-[#1b1913]/80 mt-16 rounded-xl">
-    
+
       <div class="right col-span-8 ">
         <div class="bg-[url('/agent-bg.webp')] m-4  p-16 bg-cover bg-center rounded-lg">
           <img src="/bg-agent.png" alt="Agent Deployment img" class="rounded-2xl rounded-r-none">
         </div>
       </div>
-        <div class="left col-span-4 p-6">
+      <div class="left col-span-4 p-6">
         <h3 class="text-2xl">Agent turn ideas into code</h3>
         <p class="text-2xl text-white/40 tracking-tighter w-fit">Accelerate development by handing <br />off tasks to
           Cursor, while you focus on <br /> making decisions.</p>
@@ -181,37 +182,146 @@
     </div>
 
 
-      <!-- 3 items -->
+    <!-- 3 items -->
     <div class="items-1 grid grid-cols-12 items-center justify-center bg-[#1b1913]/80  rounded-xl mt-16">
       <div class="left col-span-4 p-6">
         <h3 class="text-2xl">In every tool, at every step</h3>
-        <p class="text-2xl text-white/40 tracking-tighter w-fit">Cursor reviews your PRs in GitHub, collaborates in Slack, and runs in your terminal.</p>
+        <p class="text-2xl text-white/40 tracking-tighter w-fit">Cursor reviews your PRs in GitHub, collaborates in
+          Slack, and runs in your terminal.</p>
 
         <button class="text-orange-600 mt-3">Learn about Cursor's surfaces →</button>
       </div>
-<div class="right col-span-8">
-  <div class="relative m-4 p-20 pr-0 rounded-lg bg-[url('/image3.png')] bg-cover bg-center">
+      <div class="right col-span-8 ">
+        <div class="relative m-4 p-20 pr-0 rounded-lg bg-[url('/image3.png')] bg-cover bg-center ">
 
-    <img
-      src="/image3.1.png"
-      alt="Agent Deployment img"
-      class="absolute left-5 top-5 z-20 rounded-2xl w-150 m-10"
-    />
+          <img src="/image3.1.png" alt="Agent Deployment img"
+            class="absolute left-5 top-5 z-20 rounded-2xl w-150 m-10" />
 
-    <img
-      src="/image3.2.png"
-      alt="Agent Deploym8ent img"
-            class="relative right-1 bottom-1 z-2 rounded-2xl w-150 mt-40 ml-28"
+          <img src="/image3.2.png" alt="Agent Deploym8ent img"
+            class="relative right-1 bottom-1 z-2 rounded-2xl w-150 mt-40 ml-28" />
 
-    />
-  
-  </div>
-</div>
+        </div>
+      </div>
 
 
     </div>
   </section>
 
+  <!-- review section -->
+  <h3 class="text-4xl font-semibold text-center my-32 mb-16">The new way to build software.</h3>
+  <section class="grid col-span-12 grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto my-16">
+
+    <!-- Card 1 -->
+    <div class="bg-[#1b1913]/80 h-60 flex flex-col justify-between p-4 rounded-md">
+      <p>
+        “It was night and day from one batch to another, adoption went from single digits to over 80%.
+        It just spread like wildfire, all the best builders were using Cursor.”
+      </p>
+      <div class="flex items-center">
+        <img src="/theprimeagen-avatar.webp" alt="Diana Hu" class="rounded-sm w-10 h-10" />
+        <div class="ml-2">
+          <p>Diana Hu</p>
+          <p class="text-gray-400 text-sm">General Partner, Y Combinator</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-[#1b1913]/80 h-60 flex flex-col justify-between p-4 rounded-md">
+      <p>
+        “My favorite enterprise AI service is Cursor. Every one of our engineers, some 40,000,
+        are now assisted by AI and our productivity has gone up incredibly.”
+      </p>
+      <div class="flex items-center">
+        <img src="/patrick-collison-avatar.webp" alt="Jensen Huang" class="rounded-sm w-10 h-10" />
+        <div class="ml-2">
+          <p>Jensen Huang</p>
+          <p class="text-gray-400 text-sm">President & CEO, NVIDIA</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-[#1b1913]/80 h-60 flex flex-col justify-between p-4 rounded-md">
+      <p>
+        “The best LLM applications have an autonomy slider: you control how much independence to
+        give the AI. In Cursor, you can do Tab completion, Cmd+K for targeted edits, or let it rip.”
+      </p>
+      <div class="flex items-center">
+        <img src="/shadcn-avatar.webp" alt="Andrej Karpathy" class="rounded-sm w-10 h-10" />
+        <div class="ml-2">
+          <p>Andrej Karpathy</p>
+          <p class="text-gray-400 text-sm">CEO, Eureka Labs</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-[#1b1913]/80 h-60 flex flex-col justify-between p-4 rounded-md">
+      <p>
+        “Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees.
+        We spend more on R&D than any other undertaking, and there’s significant economic impact.”
+      </p>
+      <div class="flex items-center">
+        <img src="/patrick-collison-avatar.webp" alt="Jensen Huang" class="rounded-sm w-10 h-10" />
+        <div class="ml-2">
+          <p>Patrick Collison</p>
+          <p class="text-gray-400 text-sm">Co-Founder & CEO, Stripe</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="bg-[#1b1913]/80 h-60 flex flex-col justify-between p-4 rounded-md">
+      <p>
+        “The most useful AI tool that I currently pay for, hands down, is Cursor.
+        It's fast, handles brackets properly, sensible shortcuts — everything is well put together.”
+      </p>
+      <div class="flex items-center">
+        <img src="/shadcn-avatar.webp" alt="Andrej Karpathy" class="rounded-sm w-10 h-10" />
+        <div class="ml-2">
+          <p>shadcn</p>
+          <p class="text-gray-400 text-sm">Creator of shadcn/ui</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="bg-[#1b1913]/80 h-60 flex flex-col justify-between p-4 rounded-md">
+      <p>
+        “It's definitely becoming more fun to be a programmer. We are at the 1% of what’s possible,
+        and it’s in interactive experiences like Cursor where models like GPT-5 shine brightest.”
+      </p>
+      <div class="flex items-center">
+        <img src="/theprimeagen-avatar.webp" alt="Diana Hu" class="rounded-sm w-10 h-10" />
+        <div class="ml-2">
+          <p>Greg Brockman</p>
+          <p class="text-gray-400 text-sm">President, OpenAI</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- frontier section -->
+  <h3 class="text-2xl font-semibold  my-40  max-w-7xl mx-auto mb-0">Stay on the frontier.</h3>
+  <section class="grid col-span-12 grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto my-4">
+
+    <!-- Card 1 -->
+    <div class="bg-[#1b1913]/80  flex flex-col justify-between p-4 rounded-md ">
+    <p>Use the best model for every task
+</p>
+<p class="text-gray-400 text-sm">Choose between every cutting-edge model from OpenAI, Anthropic, Gemini, xAI, and Cursor.</p>
+  
+<span class="text-orange-600">Explore models ↗</span>
+<img src="/UserScreenshot1.png" alt="">
+</div>
+
+  
+
+  
+  </section>
 </body>
 
 </html>
